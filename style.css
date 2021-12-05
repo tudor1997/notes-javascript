@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Montserrat:wght@400;500;600&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(30, 111, 177);
+    
+}
+.container{
+    display:flex;
+    position:relative;
+    width:100%;
+    flex-wrap:wrap;
+    font-family: 'Montserrat', sans-serif;
+    justify-content: center;
+}
+.add-notes{
+    width:140px;
+    height:40px;
+    margin: 10px 10px 0px auto;
+    float:right;
+    background-color:rgb(245, 126, 14);
+    border:none;
+    font-size:15px;
+    border-radius:6px;
+    box-shadow:0 0 5px #111;
+    color:white;
+    cursor:pointer;
+    text-align: center;
+    transition:all .3s ease;
+    font-weight: 600;
+}
+.add-notes:hover{
+    color:black;
+    background-color:orangered;
+    transform:scale(1.04);
+}
+.clear-notes{
+    width:140px;
+    height:40px;
+    margin: 10px 10px 0px auto;
+    float:right;
+    background-color:rgb(245, 126, 14);
+    border:none;
+    font-size:15px;
+    border-radius:6px;
+    box-shadow:0 0 5px #111;
+    color:white;
+    cursor:pointer;
+    text-align: center;
+    transition:all .3s ease;
+    font-weight: 600;
+}
+.clear-notes:hover{
+    color:black;
+    background-color:orangered;
+    transform:scale(1.04);
+}
+.note{
+    background-color:white;
+    box-shadow:0 0 10px 4px rgba(0, 0, 0, 0.1);
+    width:400px;
+    height:400px;
+    margin:30px 20px;
+}
+
+.note .tools{
+    background-color:rgb(245, 126, 14);
+    display:flex;
+    justify-content:flex-end;
+    padding: 0.5rem;
+}
+
+.note .tools button{
+    background-color:transparent;
+    border:none;
+    color:white;
+    cursor:pointer;
+    font-size:1rem;
+    margin-left:0.5rem;
+}
+.note textarea{
+    outline:none;
+    font-family:inherit;
+    font-size:1.2rem;
+    border:none;
+    height:400px;
+    width:100%;
+    padding:20px;
+}
+.main {
+    padding:30px;
+}
+.hidden{
+    display:none;
+}
